@@ -1,0 +1,47 @@
+*{
+    background-color: cyan;
+    font-family: sans-serif;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+  }
+
+.container .btn-submit{
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 80%;
+    padding: 2px;
+    color: brown;
+    background-color:lightcoral;
+    width: 50px;
+  }
+.container .btn-submit:hover{
+      background-color:rgb(23, 94, 117) ;
+  }
+.container button{
+  width: 80%;
+      margin-top: 10px;
+      border-radius: 10px;
+      height:2em;
+      padding: 2px;
+      color: bisque;  
+      background-color: black;  
+}
+.container button:hover{
+  background-color: brown;
+}
+  .container input{
+      text-align: center;
+      justify-content: space-between;
+      width: 200px;
+      background-color: white;
+  }
+  .container .test{
+    border: 5px red;
+    padding: 3px;
+    margin: 10px;
+  }
